@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trouve le nombre en Js</title>
+
+    <!-- Bootstrap & custom CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+  
+        <div class="row justify-content-center mt-5">
+          <header>
+            Trouve le nombre
+          </header>
+        </div>
+        
+        <!-- Formulaire -->
+        <div class="row justify-content-center mt-5 mb-4">   
+          <div class="col-lg-8">   
+            <div class="bg-light p-5 shadow">
+              
+              <form id="formulaire">
+                <div class="row">
+                  <div class="col">
+                    <input id="prix" class="form-control" placeholder="Devinez le nombre ! (entre 0 et 1 000)" />
+                  </div>
+                  <button id="button" type="submit" class="btn btn-info">Deviner</button>
+                </div>
+                <small class="text-danger">Vous devez rentrer un nombre.</small>
+              </form>
+              
+            </div>  
+          </div>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="row justify-content-center">
+          <div id="instructions" class="col-lg-8"></div>
+        </div>
+        
+      </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
