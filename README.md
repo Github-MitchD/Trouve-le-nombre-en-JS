@@ -1,5 +1,5 @@
 # Trouve le nombre en Js
- Projet en HTML - CSS - JS
+ <b>Projet en HTML - CSS - JS</b>
 
 <b>Règles:</b>
 
